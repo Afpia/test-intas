@@ -1,0 +1,42 @@
+.header {
+	border-bottom: 1px solid rgba(52, 81, 94, 1);
+	height: 81px;
+	padding-left: 20px;
+	h2 {
+		margin: 0;
+		font-size: 26px;
+		color: #cfcfcf;
+		display: flex;
+		align-items: center;
+		height: 100%;
+	}
+}
+
+.about {
+	margin: 0;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.container {
+	padding: 20px;
+}
+
+.start {
+	padding: 10px 12px;
+	border-radius: 4px;
+	background-color: #d32f2f;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	color: #fff;
+}
+.cancel {
+	padding: 10px 12px;
+	border-radius: 4px;
+	background-color: transparent;
+	outline: none;
+	border: 1px solid #707070;
+	cursor: pointer;
+	color: #707070;
+}

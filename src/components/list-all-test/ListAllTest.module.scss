@@ -1,0 +1,27 @@
+.circle {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	background-color: #000;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+.item {
+	display: flex;
+	align-items: center;
+	padding: 4px;
+	padding-left: 10px;
+	margin: 10px 10px;
+	font-size: 16px;
+	border-radius: 4px;
+	margin-bottom: 5px;
+}
+
+.item.active {
+	color: #fff;
+	background-color: #D32F2F;
+}
+.item.active .circle {
+    background-color: #fff;
+}
